@@ -4,6 +4,14 @@ import Typography from '@material-ui/core/Typography';
 
 import colors from './colors';
 
+const WebSiteLink = styled(Typography)`
+    font-family: 'Baloo Paaji 2';
+    color: white;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+`;
+
 const Title = styled(Typography)`
     font-family: 'Baloo Paaji 2';
     color: white;
@@ -42,6 +50,9 @@ function Header() {
             <SubTitle variant="h5" component="h2">
                 Software engineer
             </SubTitle>
+            <WebSiteLink variant="subtitle1">
+                https://jpl-dev.herokuapp.com/
+            </WebSiteLink>
         </StyledHeader>
     )
 };
