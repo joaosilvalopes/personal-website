@@ -7,6 +7,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 import Accordion from './Accordion';
+import medias from './medias';
 import colors from './colors';
 
 const Title = styled(Typography)`
@@ -39,6 +40,12 @@ const ColDiv = styled.div`
     display: flex;
     flex-direction: column;
     width: 40%;
+    margin-top: 6rem;
+
+    ${medias.leS} {
+        margin-top: 0;
+        width: 100%;
+    }
 `;
 
 const experiences = [
@@ -103,7 +110,7 @@ const experiences = [
 
 function LeftCol() {
     return (
-        <ColDiv style={{ marginTop: '6rem' }}>
+        <ColDiv>
             <section style={{ marginTop: '2rem' }}>
                 <Title variant="h5" style={{ marginBottom: '1.5rem' }}>
                     ABOUT ME
@@ -134,7 +141,7 @@ function LeftCol() {
                     PROFESSIONAL EXPERIENCE
                 </Title>
                 <P variant="subtitle1">
-                    {experiences.map(experience => <Accordion {...experience} />)}
+                    {experiences.map(experience => <Accordion key={experience.summary} {...experience} />)}
                 </P>
             </section>
         </ColDiv>

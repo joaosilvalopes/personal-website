@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
 
+import medias from './medias';
 import colors from './colors';
 
 const WebSiteLink = styled(Typography)`
@@ -10,6 +11,13 @@ const WebSiteLink = styled(Typography)`
     position: absolute;
     top: 2rem;
     right: 2rem;
+
+    ${medias.leS} {
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
 `;
 
 const Title = styled(Typography)`
@@ -17,6 +25,13 @@ const Title = styled(Typography)`
     color: white;
     padding-left: 26.5rem;
     padding-top: 5rem;
+
+    ${medias.leS} {
+        font-size: 2rem;
+        display: block;
+        padding: 20rem 0 0 0;
+        text-align: center;
+    }
 `;
 
 const SubTitle = styled(Typography)`
@@ -25,6 +40,11 @@ const SubTitle = styled(Typography)`
     color: white;
     margin-top: 1rem;
     padding: 0.5rem 0.5rem 0.5rem 26.5rem;
+
+    ${medias.leS} {
+        padding: 0.2rem 0;
+        text-align: center;
+    }
 `;
 
 const Img = styled.img`
@@ -33,6 +53,12 @@ const Img = styled.img`
     top: 2em;
     left: 4rem;
     width: 20rem;
+
+	${medias.leS} {
+        left: 50%;
+        width: 80%;
+        transform: translateX(-50%);
+    }
 `;
 
 const StyledHeader = styled.header`

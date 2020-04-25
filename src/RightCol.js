@@ -4,12 +4,18 @@ import Typography from '@material-ui/core/Typography';
 import LinearProgress from '@material-ui/core/LinearProgress';
 
 import useMounted from './hooks/useMounted';
+
+import medias from './medias';
 import colors from './colors';
 
 const ColDiv = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+
+    ${medias.leS} {
+        width: 100%;
+    }
 `;
 
 const Title = styled(Typography)`
