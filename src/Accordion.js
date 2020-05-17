@@ -18,11 +18,6 @@ const TriangleSpan = styled.span`
     margin-right: 1rem;
 `;
 
-const Div = styled.div`
-    text-align: start;
-    margin-left: 2rem;
-`;
-
 const WrapperDiv = styled.div`
     margin-top: 2rem;
 `;
@@ -30,24 +25,26 @@ const WrapperDiv = styled.div`
 const CompanySpan = styled.span`
     color: ${colors.bluma};
     margin-left: 2rem;
-    font-weight: bold;
+		font-weight: bold;
+		display: inline-block;
+		margin-bottom: 1rem;
 `;
 
 function Accordion({ summary, details, company }) {
-    const [open, setOpen] = useState(true);
+	const [open, setOpen] = useState(true);
 
-    return (
-        <WrapperDiv>
-            <Span onClick={() => setOpen(open => !open)}>
-                <TriangleSpan open={open}>▶</TriangleSpan>
-                {summary}
-            </Span>
+	return (
+		<WrapperDiv>
+			<Span onClick={() => setOpen(open => !open)}>
+				<TriangleSpan open={open}>▶</TriangleSpan>
+				{summary}
+			</Span>
 
-            <CompanySpan>{company}</CompanySpan>
+			<CompanySpan>{company}</CompanySpan>
 
-            {open && <Div dangerouslySetInnerHTML={{ __html: details }} />}
-        </WrapperDiv>
-    )
+			{open && details}
+		</WrapperDiv>
+	)
 }
 
 export default Accordion;
