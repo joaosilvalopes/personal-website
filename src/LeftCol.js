@@ -183,7 +183,7 @@ function LeftCol() {
 					<Link target="_blank" href="tel:+351 916 619 926"> <PhoneAndroidIcon style={{ marginRight: '2rem' }} /> +351 916 619 926</Link>
 				</ContactSpan>
 				<ContactSpan>
-					<Link target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=jpgsl@gmail.com"> <MailIcon style={{ marginRight: '2rem' }} /> jpgsl@gmail.com</Link>
+					<Link target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=jpgdsl@gmail.com"> <MailIcon style={{ marginRight: '2rem' }} /> jpgsl@gmail.com</Link>
 				</ContactSpan>
 				<ContactSpan>
 					<Link target="_blank" href="https://github.com/joaosilvalopes/"> <GitHubIcon style={{ marginRight: '2rem' }} /> joaosilvalopes</Link>
