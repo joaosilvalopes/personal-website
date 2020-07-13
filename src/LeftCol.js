@@ -57,9 +57,9 @@ const experiences = [
 				Building an informative website for a stone selling business, links:
 				<br />
 				<br />
-				<a style={{ color: 'white' }} href="www.recistone.com/sandbox">www.recistone.com/sandbox</a>
+				<a style={{ color: 'white' }} href="https://www.recistone.com/sandbox">www.recistone.com/sandbox</a>
 				<br />
-				<a style={{ color: 'white' }} href="www.recistone.com/sandbox/calacatta">www.recistone.com/sandbox/calacatta</a>
+				<a style={{ color: 'white' }} href="https://www.recistone.com/sandbox/calacatta">www.recistone.com/sandbox/calacatta</a>
 				<br />
 				<br />
             Some tools used:
@@ -81,6 +81,7 @@ const experiences = [
 				<br />
 				<br />
 						Some tools used:
+				<br />
 						 - Google apps scripts
 				<br />
 						 - Mineflayer
@@ -170,15 +171,15 @@ function LeftCol() {
 			<section style={{ marginTop: '2rem' }}>
 				<Title variant="h5" style={{ marginBottom: '1.5rem' }}>
 					ABOUT ME
-                </Title>
+				</Title>
 				<P variant="subtitle1">
 					I am a 22 year old software engineer and i enjoy developing all kinds of tech products from graphical user interfaces to back-end services and automation scripts/bots, although i have more professional experience on web development.
-                </P>
+				</P>
 			</section>
 			<section style={{ marginTop: '2rem' }}>
 				<Title variant="h5" style={{ marginBottom: '1.5rem' }}>
 					Contacts
-                </Title>
+				</Title>
 				<ContactSpan>
 					<Link target="_blank" href="tel:+351 916 619 926"> <PhoneAndroidIcon style={{ marginRight: '2rem' }} /> +351 916 619 926</Link>
 				</ContactSpan>
