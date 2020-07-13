@@ -112,6 +112,10 @@ const experiences = [
 				<br />
 						- React
 				<br />
+						- Redux
+				<br />
+						- Styled Components
+				<br />
 						- HTML/CSS
 			</div>
 		)
