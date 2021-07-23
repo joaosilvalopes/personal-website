@@ -81,7 +81,7 @@ function RightCol() {
 
     return (
         <ColDiv>
-            <Title variant="h5" style={{ marginBottom: '1.5rem' }}>
+            <Title variant="h5" style={{ marginBottom: '2rem', marginTop: '8rem' }}>
                 PROGRAMMING LANGUAGE EXPERIENCE
             </Title>
             {programmingLanguages.map(([className, value]) => (
@@ -99,7 +99,7 @@ function RightCol() {
                     <StyledLinearProgress mounted={mounted} value={value} variant="determinate" />
                 </Span>
             ))}
-            <Title variant="h5" style={{ marginBottom: '1.5rem' }}>
+            <Title variant="h5" style={{ marginBottom: '1.5rem', marginTop: '14rem' }}>
                 ORM/ODM EXPERIENCE
             </Title>
             {oms.map(([className, value]) => (

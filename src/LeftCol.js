@@ -50,6 +50,36 @@ const ColDiv = styled.div`
 
 const experiences = [
 	{
+		summary: 'May 2020 – June 2021',
+		company: 'Syone',
+		details: (
+			<div>
+				Working as a tech consultant on projects in the area of travel ecommerce and company management tools
+				<br />
+				<br />
+            Some tools used:
+				<br />
+						 - Angular
+				<br />
+						 - Dotnet
+				<br />
+						 - C#
+				<br />
+						 - PostgreSQL
+				<br />
+						 - React
+				<br />
+						 - HTML/CSS
+				<br />
+						 - Node.js
+				<br />
+						 - Express
+				<br />
+						 - MongoDB
+			</div>
+		)
+	},
+	{
 		summary: 'Feb 2020 – April 2020',
 		company: 'Recistone',
 		details: (
@@ -101,11 +131,22 @@ const experiences = [
 		)
 	},
 	{
+		style: { marginTop: '6rem' },
 		summary: 'Aug 2018 – Jan 2020',
 		company: 'Mindera',
 		details: (
 			<div>
 				Building the front-end of e-commerce web applications with a professional team of very experienced developers using the scrum methodology.
+				<br />
+				<br />
+					Project Links:
+				<br />
+				<br />
+					<a style={{ color: 'white' }} href="https://www.harrods.com">www.harrods.com</a>
+				<br />
+					<a style={{ color: 'white' }} href="https://www.emiliopucci.com">www.emiliopucci.com</a>
+				<br />
+					<a style={{ color: 'white' }} href="https://www.altuzarra.com">www.altuzarra.com</a>
 				<br />
 				<br />
 					Some tools used:
@@ -177,7 +218,7 @@ function LeftCol() {
 					ABOUT ME
 				</Title>
 				<P variant="subtitle1">
-					I am a 22 year old software engineer and i enjoy developing all kinds of tech products from graphical user interfaces to back-end services and automation scripts/bots, although i have more professional experience on web development.
+					I am a 23 year old software engineer and i enjoy developing all kinds of tech products from graphical user interfaces to back-end services and automation scripts/bots, although i have more professional experience on web development.
 				</P>
 			</section>
 			<section style={{ marginTop: '2rem' }}>
@@ -197,7 +238,7 @@ function LeftCol() {
 					<Link target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-paulo-lopes-917727166/"> <LinkedInIcon style={{ marginRight: '2rem' }} /> João Paulo Lopes</Link>
 				</ContactSpan>
 			</section>
-			<section style={{ marginTop: '2rem' }}>
+			<section style={{ marginTop: '6rem' }}>
 				<Title variant="h5" style={{ marginBottom: '1.5rem' }}>
 					PROFESSIONAL EXPERIENCE
                 </Title>
@@ -207,6 +248,7 @@ function LeftCol() {
 							key={experience.summary}
 							summary={experience.summary}
 							details={experience.details}
+							style={experience.style}
 							company={experience.company} />
 					))}
 				</P>

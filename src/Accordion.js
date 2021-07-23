@@ -30,11 +30,11 @@ const CompanySpan = styled.span`
 		margin-bottom: 1rem;
 `;
 
-function Accordion({ summary, details, company }) {
+function Accordion({ summary, details, company, style }) {
 	const [open, setOpen] = useState(true);
 
 	return (
-		<WrapperDiv>
+		<WrapperDiv style={style}>
 			<Span onClick={() => setOpen(open => !open)}>
 				<TriangleSpan open={open}>▶</TriangleSpan>
 				{summary}
