@@ -54,7 +54,14 @@ const experiences = [
 		company: 'Syone',
 		details: (
 			<div>
-				Working as a tech consultant on projects in the area of travel ecommerce and company management tools
+				Working as a tech consultant on projects in the area of travel ecommerce and company management tools,
+				
+				<br />
+				<br />
+				Details:
+					I worked in a web app for lost and found eccomerce services for a foreign country's airport, where i mainly worked with react, styled components, node.js, express and MongoDB.
+					I was developing with the internal team the internal management system for timesheets and related services using Angular, Dotnet, C#, PostgreSQL.
+					Along with the internal team i used aws solutions manage the hosting of these apps.
 				<br />
 				<br />
             Some tools used:
@@ -108,6 +115,13 @@ const experiences = [
 		details: (
 			<div>
 				Mainly building miscellanious scripts for bots or google suite automations
+
+				<br />
+				<br />
+				Details:
+					I used a the google apps scripts tool to so some excel automation jobs for a client.
+					I used the mineflayer framework and the javascript language to develop a minecraft bot for a foreign client.
+					I worked on an app in the field of education financing as a full stack developer using all the technologies listed bellow.
 				<br />
 				<br />
 						Some tools used:
@@ -137,6 +151,11 @@ const experiences = [
 		details: (
 			<div>
 				Building the front-end of e-commerce web applications with a professional team of very experienced developers using the scrum methodology.
+
+				<br />
+				<br />
+				Details:
+				In this job i gained what i believe to be expert level Knowledge in core javascript, css, html and in the react, redux and styled components tools between others.
 				<br />
 				<br />
 					Project Links:
@@ -167,6 +186,11 @@ const experiences = [
 		details: (
 			<div>
 				Mainly working with React and Redux on a web app with the following main concepts:
+
+				<br />
+				<br />
+				Details:
+					In this job i had my first serious interaction with web development where i worked independently to learn the basics and some advanced concepts of every tool listed bellow.
 				<br />
 				<br />
 				- An app for teachers to use in their classrooms and control their students computer screen in real time
@@ -229,7 +253,7 @@ function LeftCol() {
 					<Link target="_blank" href="tel:+351 916 619 926"> <PhoneAndroidIcon style={{ marginRight: '2rem' }} /> +351 916 619 926</Link>
 				</ContactSpan>
 				<ContactSpan>
-					<Link target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=jpgdsl@gmail.com"> <MailIcon style={{ marginRight: '2rem' }} /> jpgsl@gmail.com</Link>
+					<Link target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=jpgdsl@gmail.com"> <MailIcon style={{ marginRight: '2rem' }} /> jpdgsl@gmail.com</Link>
 				</ContactSpan>
 				<ContactSpan>
 					<Link target="_blank" href="https://github.com/joaosilvalopes/"> <GitHubIcon style={{ marginRight: '2rem' }} /> joaosilvalopes</Link>
